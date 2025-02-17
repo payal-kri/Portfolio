@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="css/header.css">
+
+   <title>portfolio</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo"><button class="logo-btn">&nbsp;Portfolio&nbsp;</button></a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="nav__link">About Me</a>
+               </li>
+
+               <li>
+                  <object data="img/diwakar deloitte final.pdf" type="pdf">
+                     <a href="img/diwakar deloitte final.pdf" class="nav__link">Resume</a>
+                  </object>
+               </li>
+
+               <li>
+                  <a href="#projects" class="nav__link">Projects</a>
+               </li>
+
+               <li>
+                  <a href="#contact-me" class="nav__link">Contact Me</a>
+               </li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__actions">
+            <!-- Dropdown -->
+            <div class="dropdown" id="dropdown">
+               <div class="dropdown__profile">
+                  <div class="dropdown__names">
+                     <h3>Payal Thakur</h3>
+                     <span>Developer</span>
+                  </div>
+
+                  <div class="dropdown__image">
+                     <img src="img/resume-icon.jpg" alt="image">
+                  </div>
+               </div>
+
+               <div class="dropdown__list">
+                  <a href="www.linkedin.com/in/diwakar-jaiswal" class="dropdown__link">
+                     <i class="ri-linkedin-box-fill"></i>
+                     <span>Linkedn</span>
+                  </a>
+
+                  <a href="https://github.com/EduGlint" class="dropdown__link">
+                     <i class="ri-github-fill"></i>
+                     <span>Github</span>
+                  </a>
+
+                  <a href="https://www.instagram.com/diwakar_0911/" class="dropdown__link">
+                     <i class="ri-instagram-line"></i>
+                     <span>Instagram</span>
+                  </a>
+
+                  <a href="https://www.facebook.com/profile.php?id=100056830988101&mibextid=ZbWKwL" class="dropdown__link">
+                     <i class="ri-facebook-circle-fill"></i>
+                     <span>Facebook</span>
+                  </a>
+
+                  <a href="img/diwakar deloitte final.pdf" class="dropdown__link" download="pdf">
+                     <i class="ri-file-download-fill"></i>
+                     <span>Download Resume</span>
+                  </a>
+               </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!-- home section -->
+   <div id="home">
+      <section class="section">
+         <div class="section__container">
+            <div class="content">
+               <p class="subtitle">HELLO</p>
+               <h1 class="title">
+                  I'm <span>Payal<br>a</span> <label id="element"></label>
+               </h1>
+               <p class="description">
+                  A passionate Full Stack Software Developer &#128640 having an experience of building Web and Mobile applications
+                  with Javascript / Reactjs / Nodejs / React Native and some other cool libraries and Frameworks. I'm dedicated to 
+                  turning ideas &#128161 into innovative Web Appliactions and Android Appliactions. Explore my latest Projects And Articles
+                  on my Linkedn and Github.
+               </p>
+               <div class="action__btns">
+                  <button class="hire__me"><a href="mailto:jaiswaldiwakar91@gmail.com" style="color: white;">Hire Me</a></button>
+                  <object data="img/diwakar deloitte final.pdf" type="pdf">
+                  <button class="portfolio"><a href="img/diwakar deloitte final.pdf" style="color: white;">Resume</a></button>
+                  </object>
+               </div>
+               <div class="icon__btns">
+                  <a href="https://github.com/EduGlint"> <i class="ri-github-fill"></i> </a>
+                  <a href="www.linkedin.com/in/diwakar-jaiswal"><i class="ri-linkedin-box-fill"></i></a>
+                  <a href="https://www.instagram.com/diwakar_0911/"><i class="ri-instagram-line"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100056830988101&mibextid=ZbWKwL"><i class="ri-facebook-circle-fill"></i></a>
+               </div>
+            </div>
+            <div class="image">
+               <img class="home-img" src="img/resume-img3.jpg" alt="profile">
+            </div>
+
+         </div>
+      </section>
+   </div>
+
+   <!-- about section -->
+   <div id="about">
+      <div class="about__container">
+         <section class="about" id="about">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <div class="about-img">
+               <img src="img/resume-img3.jpg" alt="">
+               <span class="circle-spin"></span>
+            </div>
+
+            <div class="about-content">
+               <h3>Software Developer</h3>
+               <p>As A Final Year Student And a Skilled Fresher of Computer Science with a passion for developing innovative software solutions. Proficient in various programming languages including C++, Python, and Java, with experience in developing web and mobile applications, designing databases, and debugging software. Collaborative team player with a proven track record of delivering high-quality work and achieving exceptional results, and Better Outcomes.</p>
+
+               <div class="action__btns">
+                  <object data="img/diwakar deloitte final.pdf" class="read-resume" type="pdf">
+                  <button class="hire__me" id="read-more"><a href="img/diwakar deloitte final.pdf"  style="color: white;">Read More</a></button>
+                  </object>
+               </div>
+
+
+            </div>
+         </section>
+      </div>
+   </div>
+   <!-- my services section -->
+   <section class="services">
+      <h2 class="services-title">My <span>Services</span></h2>
+      <div class="services-container">
+         <div class="services-box">
+            <div class="icon">
+               <i class="ri-code-s-slash-line"></i>
+               <a href="#contact-me"><i class="ri-arrow-right-line"></i></a>
+            </div>
+            <h3>Web Development</h3>
+            <p>specialized in crafting responsive, user-friendly websites with a focus on modern design, seamless functionality, and optimized performance.</p>
+         </div>
+         <div class="services-box">
+            <div class="icon">
+               <i class="ri-google-play-fill"></i>
+               <a href="#contact-me"><i class="ri-arrow-right-line"></i></a>
+            </div>
+            <h3>App Development</h3>
+            <p>creating innovative and user-centric mobile and web applications, tailored to deliver exceptional performance and seamless user experiences,</p>
+         </div>
+
+         <div class="services-box">
+            <div class="icon">
+               <i class="ri-brush-fill"></i>
+               <a href="#contact-me"><i class="ri-arrow-right-line"></i></a>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>designing intuitive and visually appealing interfaces, to create seamless and engaging experiences that connect users with your brand.</p>
+         </div>
+
+         <div class="services-box">
+            <div class="icon">
+               <i class="ri-palette-fill"></i>
+               <a href="#contact-me"><i class="ri-arrow-right-line"></i></a>
+            </div>
+            <h3>Graphic Design</h3>
+            <p>"Expertly crafted designs focus on delivering responsive, user-friendly websites that combine modern aesthetics with seamless functionality</p>
+         </div>
+
+         <div class="services-box">
+            <div class="icon">
+               <i class="fa-solid fa-video"></i>
+               <a href="#contact-me"><i class="ri-arrow-right-line"></i></a>
+            </div>
+            <h3>Video Editing</h3>
+            <p>High-quality video editing services transform raw footage into engaging and visually stunning content, tailored to captivate audiences and convey your story effectively.</p>
+         </div>
+
+         <div class="services-box">
+            <div class="icon">
+               <i class="fa-solid fa-blog"></i>
+               <a href="#contact-me"><i class="ri-arrow-right-line"></i></a>
+            </div>
+            <h3>Content Writing</h3>
+            <p>Engaging and well-researched content is crafted to resonate with your audience, enhance your brand voice, and drive meaningful connections.</p>
+         </div>
+
+
+      </div>
+   </section>
+
+   <!-- project section -->
+   <div id="projects">
+      <section id="projects" class="projects">
+         <h2 class="section-title">Recents <span>Projects</span></h2>
+         <div class="projects-grid">
+            <div class="projects-card">
+               <img src="img/project1.webp" alt="">
+               <h3>Tutorial Website</h3>
+               <p>Developed a comprehensive tutorial website that offers easy-to-follow, interactive courses designed to help learners build new skills at their own pace, with step-by-step guides and hands-on exercises.</p>
+               <div class="btn-group">
+                  <a href="https://eduglint.netlify.app/"><div class="btn">Live Demo</div></a>
+                  <a href="https://github.com/diwakar-choudhary/EduGlint"><div class="btn" >Github Repo</div></a>
+               </div>
+            </div>
+            <div class="projects-card">
+               <img src="img/project2.webp" alt="">
+               <h3>Travelling Website</h3>
+               <p>Created an engaging and user-friendly travel website that provides detailed itineraries, destination guides, booking options, and various information about a place helping users plan their perfect trips with ease and convenience.</p>
+               <div class="btn-group">
+                  <div class="btn">Live Demo</div>
+                  <a href="https://github.com/diwakar-choudhary/Travelling"><div class="btn">Github Repo</div></a>
+               </div>
+            </div>
+            <div class="projects-card">
+               <img src="img/project3.webp" alt="">
+               <h3>Progress Tracker</h3>
+               <p>Developed a progress tracker application that allows users to set goals, track their achievements, and monitor their growth, providing them with insights and motivation to stay on course.</p>
+               <div class="btn-group">
+                  <div class="btn">Live Demo</div>
+                  <a href="https://github.com/diwakar-choudhary/progress_tracker"><div class="btn">Github Repo</div></a>
+               </div>
+            </div>
+            <div class="projects-card">
+               <img src="img/project4.webp" alt="">
+               <h3>Patient Caring</h3>
+               <p>Built a patient management system that streamlines healthcare workflows, allowing healthcare providers to efficiently manage patient records, appointments, and treatment plans, ensuring better care coordination and improved patient outcomes.</p>
+               <div class="btn-group">
+                  <div class="btn">Live Demo</div>
+                 <a href="https://github.com/diwakar-choudhary/patient_management"><div class="btn">Github Repo</div></a>
+               </div>
+            </div>
+            <div class="projects-card">
+               <img src="img/project5.webp" alt="">
+               <h3>Portfolio</h3>
+               <p>Designed and developed a personal portfolio website that showcases my diverse skills, including web development, design, and content creation, offering visitors a clear and engaging overview of my work and professional journey.</p>
+               <div class="btn-group">
+                  <a href="https://diwakar-choudhary.github.io/portfolio/"><div class="btn">Live Demo</div></a>
+                 <a href="https://github.com/diwakar-choudhary/portfolio"> <div class="btn">Github Repo</div></a>
+               </div>
+            </div>
+            <div class="projects-card">
+               <img src="img/project6.webp" alt="">
+               <h3>Transaction Management</h3>
+               <p>Developed a transaction management system that enables users to track, categorize, and manage their financial transactions in real-time, providing detailed reports and insights to help them make informed financial decisions.</p>
+               <div class="btn-group">
+                  <div class="btn">Live Demo</div>
+                 <a href="https://github.com/diwakar-choudhary/transaction-tracker"><div class="btn">Github Repo</div></a>
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <!-- contact me section -->
+   <div id="contact-me">
+
+      <h2 class="contact-title">Contact <span>Me</span></h2>
+      <section class="contact">
+         <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="126fa48f-9343-4454-a09f-df4cda9a8157">
+            <div class="input-box">
+               <div class="input-field field">
+                  <input type="text" name="fullname" placeholder="Full Name" id="name" class="item" autocomplete="off" required>
+               </div>
+               <div class="input-field field">
+                  <input type="text" name="email" placeholder="Email Address" id="email" class="item"
+                     autocomplete="off" required>
+
+               </div>
+            </div>
+
+            <div class="input-box">
+               <div class="input-field field">
+                  <input type="text" name="phno" placeholder="Phone Number" id="name" class="item" autocomplete="off" required>
+
+               </div>
+               <div class="input-field field">
+                  <input type="text" name="subject" placeholder="Subject" id="subject" class="item" autocomplete="off" required>
+               </div>
+            </div>
+
+            <div class="textarea-field field">
+               <textarea name="message" id="message" cols="30" role="10" class="item" autocomplete="off"
+                  placeholder="Enter Your Message" required></textarea>
+
+            </div>
+
+            <button type="submit">Send Message</button>
+         </form>
+      </section>
+   </div>
+   <!--start contact-->
+   <footer>
+      <div id="contacts">
+
+         <div class="content-footer">
+            <div class="profil">
+               <div class="logo-area">
+                  <span class="logo-name">Portfolio</span>
+               </div>
+               <div class="desc-area">
+                  <p>Welcome to my portfolio website, where I showcase my expertise and creativity across web development, app development, UI/UX design, graphic design, video editing, and content writing.</p>
+               </div>
+               <div class="social-media">
+                  <a href="www.linkedin.com/in/diwakar-jaiswal"><i class="ri-linkedin-box-fill"></i></a>
+                  <a href="https://github.com/EduGlint"> <i class="ri-github-fill"></i> </a>
+                  <a href="https://www.facebook.com/profile.php?id=100056830988101&mibextid=ZbWKwL"><i class="ri-facebook-circle-fill"></i></a>
+                  <a href="https://www.instagram.com/diwakar_0911/"><i class="ri-instagram-line"></i></a>
+
+               </div>
+            </div>
+            <div class="service-area">
+               <ul class="service-header">
+                  <li class="service-name">E-mail :- </li>
+                  <li><a href="mailto:jaiswaldiwakar91@gmail.com">jaiswaldiwakar91@gmail.com</a></li>
+               </ul>
+               <ul class="service-header">
+                  <li class="service-name">Whatsapp</li>
+                  <li><a href="https://wa.me/916207867481">+91-9905877131</a></li>
+                  
+               </ul>
+              
+            </div>
+         </div>
+         <hr>
+         <div class="footer-bottom">
+            
+            <div class="tou">
+
+               <a href="">Terms of use</a>
+               <a href="">Privacy policy</a>
+               <a href="">Cookies</a>
+               <a href="#home" class="homeup"><i class="ri-arrow-up-line"></i>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!--end contact-->
+
+
+   <!--=============== MAIN JS ===============-->
+   <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+   <script src="https://kit.fontawesome.com/cffbb902fb.js" crossorigin="anonymous"></script>
+   <script src="js/main.js"></script>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- // it's library for text typed -->
+
+    <script>
+    var typed = new Typed("#element", {
+      strings: [ "Web Developer","App Developer","UI/UX Designer", "Graphic Designer","UI/UX Designer","Content Writer"],
+      typeSpeed: 100,
+      // backSpeed: 50,
+      loop: true,
+    });
+</script>
+
+   
+</body>
+
+</html>
